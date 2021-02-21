@@ -8,7 +8,8 @@ text-indent:1em;
 header{
 	
 }
-h1, h2 { font-family:Notable;
+h1, h2 { font-family: 'Notable', sans-serif;
+ 
 }
 h1{
 	text-shadow: 2px 2px white;}
@@ -16,9 +17,10 @@ h2{
 	letter-spacing:2px;
 }
 h3{
-	font:Arial Rounded MT;
+	font:Notable;
 	color: white;
 	text-shadow: 2px 2px black;
+	text-transform:uppercase;
 	
 }
 h4{
@@ -31,8 +33,12 @@ max-width:100%;
 }
 .video{
 margin-left:200px;
-border: 10px double white;
+border-color:white;
+border-style:double;
+border-width:5em;
+
 }
+
 .cookie{
 	height:50px;
 	width:200px;
@@ -48,6 +54,7 @@ border: 10px double white;
     float:right;
 	line-height:10px;
 	opacity:50%;
+	z-index:9999;
 	
     
 }
@@ -59,6 +66,8 @@ opacity:.5;
 
 }
 nav{ 
+
+
 width:1100px;
 height:40px;
 background-color:white;
@@ -70,7 +79,7 @@ max-width:100%;
 -webkit-box-shadow:0 0 9px 3px #999;
 box-shadow:0 0 9px 3px #999;
 border-radius:10px;
-
+cursor:url();
 }
 ul{
 	text-align: center-right;
@@ -87,6 +96,9 @@ color:#3B7A57;
 }
 .list:hover{
 	text-shadow: 2px 2px #F7E7CE;
+}
+a:link{
+	color:#3B7A57;
 }
 /*burguer menu*/
 .nav{
@@ -158,6 +170,8 @@ order:2;
 	font-size:1rem;
 	margin-top:300px;
 	margin-left:40px;
+	
+	
 }
 .flex{
 display:flex;	
